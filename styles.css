@@ -2,3 +2,22 @@
 
 /* Portfolio v2: expertise, interactive lab, keyboard-friendly timeline */
 .expertise-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.expertise-card,.lab-card{border:1px solid rgba(255,255,255,.12);border-radius:24px;background:#17223a;padding:26px}.expertise-card{min-height:265px;transition:transform .25s,border-color .25s}.expertise-card:hover,.expertise-card:focus-within{transform:translateY(-6px);border-color:#a78bfa}.expertise-card h3{font-size:21px;margin:15px 0 12px}.expertise-card p{color:#cbd5e1;line-height:1.65;font-size:14px}.expertise-card a{color:#c9f27a;text-decoration:none;display:inline-block;margin-top:14px}.expertise-icon{font-size:32px;color:#a78bfa}.expertise-card:nth-child(2) .expertise-icon{color:#38bdf8}.expertise-card:nth-child(3) .expertise-icon{color:#c9f27a}.lab-card{background:linear-gradient(145deg,#18243a,#111827)}.lab-head{display:flex;justify-content:space-between;align-items:center;gap:18px}.lab-head strong{font-size:20px}.lab-head p,.lab-disclaimer{color:#aab8d0;font-size:13px;line-height:1.6}.lab-switch{display:flex;gap:7px;flex-wrap:wrap}.scenario{border:1px solid #55617c;border-radius:999px;padding:9px 16px;background:transparent;color:#f8fafc;cursor:pointer}.scenario.active,.scenario:hover{background:#a78bfa;color:#0b1020;border-color:#a78bfa}#labChart{display:block;width:100%;height:auto;max-height:300px;margin-top:25px}.lab-legend{display:flex;gap:20px;flex-wrap:wrap;font-size:13px;color:#cbd5e1}.lab-legend>span{display:flex;align-items:center;gap:7px}.lab-legend i{display:inline-block;width:22px;height:3px}.legend-signal{background:#38bdf8}.legend-forecast{background:#c9f27a}.time{transition:background .2s,transform .2s;border-radius:12px;padding:10px}.time:hover,.time:focus-visible{background:rgba(167,139,250,.12);transform:translateX(5px);outline-color:#a78bfa}.linkedin-link{display:inline-block;margin-top:14px;color:#c9f27a}.nav nav{flex-wrap:wrap}@media(max-width:1000px){.expertise-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.expertise-grid{grid-template-columns:1fr}.lab-head{align-items:flex-start;flex-direction:column}.expertise-card{min-height:auto}.nav nav a:nth-child(2){display:none}}@media(prefers-reduced-motion:reduce){.expertise-card,.time{transition:none}}
+
+/* Data Job Market Intelligence: follows the existing bento palette. */
+.project.market-card{background:linear-gradient(125deg,#172f42,#1d2142);min-height:unset}
+.market-layout{display:grid;grid-template-columns:1fr 1.12fr;align-items:center;gap:32px;margin:28px 0}
+.market-copy{min-width:0}.market-copy h3{font-size:clamp(29px,3.2vw,42px);max-width:440px}
+.market-metrics{display:flex;gap:30px;flex-wrap:wrap;margin:24px 0}
+.market-metrics strong{display:block;font-family:'Space Grotesk',sans-serif;font-size:clamp(30px,3.4vw,44px);line-height:1.1;color:var(--lime);letter-spacing:-.04em}
+.market-metrics span{display:block;margin-top:6px;color:#bdc9dd;font-size:12px}
+.market-stack{display:flex;flex-wrap:wrap;gap:7px}.market-stack span{border:1px solid #ffffff26;background:#ffffff06;border-radius:99px;padding:5px 9px;font-size:11px;color:#d6e1f1}
+.project .market-note{font-size:11px;margin:15px 0 0;color:#afbed2}
+.market-preview{margin:0;border:1px solid #ffffff30;background:#0d1a30;border-radius:16px;overflow:hidden;box-shadow:0 18px 45px #0003}
+.market-preview-bar{display:flex;align-items:center;gap:5px;padding:11px 13px;color:#b7c9de;font-size:10px}
+.market-preview-bar i{width:6px;height:6px;background:#38bdf8;border-radius:50%}.market-preview-bar i:nth-child(2){background:var(--purple)}.market-preview-bar i:nth-child(3){background:var(--lime)}
+.market-preview-bar span{margin-left:7px}.market-preview img{display:block;width:100%;height:auto;aspect-ratio:16/9}
+.market-preview figcaption{padding:9px 13px;color:#adbed5;font-size:10px;line-height:1.5}
+.market-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}.market-actions .detail-link{margin-top:0}.market-github{padding:10px 15px;font-size:12px;gap:16px}
+.market-dialog-actions{margin-top:24px}
+@media(max-width:900px){.market-layout{grid-template-columns:1fr;gap:24px}.market-copy h3{max-width:100%}.market-preview{max-width:650px;width:100%}}
+@media(max-width:440px){.market-actions{align-items:flex-start;flex-direction:column}.market-metrics{gap:25px}.market-preview-bar span{font-size:9px}}

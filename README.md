@@ -16,7 +16,7 @@ Portfolio bilingue FR/EN (HTML, CSS, JavaScript), prêt pour un hébergement sta
 - Timeline de formation et parcours.
 - AI Lab pédagogique : courbes synthétiques, **pas des résultats du PFE**.
 - Français / English, animations légères et respect de reduced-motion.
-- Contact email + LinkedIn uniquement. Aucun lien GitHub visible, aucun CV.
+- Contact email + LinkedIn uniquement. Lien GitHub du projet Data Job Market Intelligence ; aucun CV.
 
 ## À vérifier avant publication
 
@@ -27,3 +27,19 @@ Les sections sont désormais visibles par défaut, même si JavaScript ou Inters
 
 
 V4: SVG graph has default paths in HTML and independent inline scenario handlers; curves appear even if the main JS fails.
+
+
+## Ajout du 5 novembre 2026 — Data Job Market Intelligence
+
+- Nouvelle fiche bilingue FR/EN, capture réelle et étude de cas détaillée.
+- Code : https://github.com/lfadoua/Data-Projects
+- Filtres : Tous, Data & SQL, GenAI et Software affichent la nouvelle fiche.
+- Les 12 217 annonces et 30 955 chunks V2 sont des comptes documentés du projet.
+  Le corpus a été collecté du 12 au 17 janvier 2024 ; ce n’est pas un flux actuel.
+- Génération Ollama/Qwen optionnelle ; aucune API ni base de données n’est incluse
+  dans ce portfolio statique. Le bouton GitHub ouvre le code, pas une démo hébergée.
+- `assets/data-job-market-intelligence.jpg` doit rester avec les trois fichiers
+  HTML/CSS/JS. Extraire tout le ZIP avant d’ouvrir `index.html`.
+- Correction ciblée d’un accès à `.linkedin-note` absent, qui interrompait le JS.
+
+Le ZIP d’origine et les autres fiches de projets sont conservés.
